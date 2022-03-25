@@ -1,10 +1,13 @@
 {
   "name": "dculus-uikit",
-  "version": "0.0.76",
+  "version": "0.0.77",
   "description": "Package for trying out GITHUB Package Registry",
   "main": "index.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@dculussoftwares"
+    "access": "public",
+    "branches": [
+      "master"
+    ]
   },
   "devDependencies": {},
   "dependencies": {}
