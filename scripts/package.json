@@ -1,6 +1,6 @@
 {
-  "name": "dculusuikit",
-  "version": "0.0.78",
+  "name": "dculus-uikit",
+  "version": "0.0.77",
   "description": "Package for trying out GITHUB Package Registry",
   "main": "index.js",
   "publishConfig": {
