@@ -1,5 +1,5 @@
 {
-  "name": "react-component-library",
+  "name": "dculus-uikit",
   "version": "1.0.0",
   "main": "build/index.js",
   "module": "build/index.esm.js",

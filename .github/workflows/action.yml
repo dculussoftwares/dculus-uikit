@@ -1,23 +1,56 @@
-name: Build and Deploy
+name: "Build, Publish, Deploy"
 
 on:
   push:
     branches:
-      - main
       - master
 
 jobs:
-  publish-package:
+  release:
+    name: "Build"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.1.2
         with:
-          node-version: 12
-          registry-url: https://npm.pkg.github.com/
-          scope: '@dculussoftwares'
-      - run: npm install
-      - run: npm run build
-      - run: cd build && npm publish
+          node-version: 16.8.0
+          registry-url: https://registry.npmjs.org
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: build
+        run: npm run build
+
+      - name: Publish
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+
+
+# name: Build and Deploy
+
+# on:
+#   push:
+#     branches:
+#       - main
+#       - master
+
+# jobs:
+#   publish-package:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - uses: actions/setup-node@v1
+#         with:
+#           node-version: 12
+#           registry-url: https://npm.pkg.github.com/
+#           scope: '@dculussoftwares'
+#       - run: npm install
+#       - run: npm run build
+#       - run: cd build && npm publish
+#         env:
+#           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
