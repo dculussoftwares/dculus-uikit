@@ -60,8 +60,6 @@
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
-    "@fluentui/react": "8.49.6",
-    "@fluentui/react-icons-mdl2": "1.2.12",
     "@types/jest": "^26.0.22",
     "@types/node": "^16.11.4",
     "@types/react": "17.0.38",
@@ -120,9 +118,7 @@
     "webpack-merge": "^5.8.0",
     "pre-commit": "1.2.2"
   },
-  "dependencies": {
-    "@dculussoftwares/form-schema": "^1.0.33"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "@ant-design/icons": "^4.7.0",
     "@babel/cli": "^7.15.7",
@@ -130,8 +126,6 @@
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
-    "@fluentui/react": "8.49.6",
-    "@fluentui/react-icons-mdl2": "1.2.12",
     "@types/jest": "^26.0.22",
     "@types/node": "^16.11.4",
     "@types/react": "17.0.38",
