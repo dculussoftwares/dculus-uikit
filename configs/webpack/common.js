@@ -15,13 +15,18 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"],
+        test: /\.css$/i,
+        include: resolve(__dirname, "../../src"),
+        use: ["style-loader", "css-loader", "postcss-loader"],
       },
-      {
-        test: /\.(scss|sass)$/,
-        use: ["style-loader", "css-loader", "sass-loader"],
-      },
+      // {
+      //   test: /\.css$/,
+      //   use: ["style-loader", "css-loader"],
+      // },
+      // {
+      //   test: /\.(scss|sass)$/,
+      //   use: ["style-loader", "css-loader", "sass-loader"],
+      // },
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
         use: [
@@ -32,17 +37,21 @@ module.exports = {
       {
         test: /\.less$/,
         use: [
-          { loader: 'style-loader' },
-          { loader: 'css-loader' },
+          { loader: "style-loader" },
+          { loader: "css-loader" },
           {
             loader: "less-loader",
             options: {
               lessOptions: {
                 javascriptEnabled: true,
-              }
-            }
-          }
-        ]
+                modifyVars: {
+                  "font-family":
+                    '"Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif',
+                },
+              },
+            },
+          },
+        ],
       },
     ],
   },
