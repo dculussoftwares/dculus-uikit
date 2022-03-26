@@ -1,3 +1,2 @@
-import App from "./app";
-
-export { App };
+import { Button } from "./app";
+export { Button };
