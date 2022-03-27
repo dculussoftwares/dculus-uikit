@@ -1,0 +1,3 @@
+.alert {
+  @apply bg-base-200 p-4 rounded-box;
+}
