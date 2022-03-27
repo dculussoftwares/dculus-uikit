@@ -1,16 +1,16 @@
 const postcssJs = require("postcss-js")
 const postcssPrefix = require('./lib/postcss-prefixer')
 
-const daisyuiInfo = require("../package.json");
+const daisyuiInfo = require("../../package.json");
 const colors = require("./colors/index");
-const utilities = require("../dist/utilities");
-const base = require("../dist/base");
-const unstyled = require("../dist/unstyled");
-const unstyledRtl = require("../dist/unstyled.rtl");
-const styled = require("../dist/styled");
-const styledRtl = require("../dist/styled.rtl");
-const utilitiesUnstyled = require("../dist/utilities-unstyled");
-const utilitiesStyled = require("../dist/utilities-styled");
+const utilities = require("../../dist/utilities");
+const base = require("../../dist/base");
+const unstyled = require("../../dist/unstyled");
+const unstyledRtl = require("../../dist/unstyled.rtl");
+const styled = require("../../dist/styled");
+const styledRtl = require("../../dist/styled.rtl");
+const utilitiesUnstyled = require("../../dist/utilities-unstyled");
+const utilitiesStyled = require("../../dist/utilities-styled");
 const themes = require("./colors/themes");
 const colorFunctions = require("./colors/functions");
 

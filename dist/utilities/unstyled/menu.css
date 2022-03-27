@@ -1,0 +1,25 @@
+.menu-vertical {
+  flex-direction: column;
+}
+  .menu-vertical :where(li) {
+  flex-direction: column;
+}
+
+.menu-vertical > :where(li) > :where(ul) {
+  top: initial;
+  left: 100%;
+}
+
+.menu-horizontal {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.menu-horizontal :where(li) {
+  flex-direction: row;
+}
+
+.menu-horizontal > :where(li) > :where(ul) {
+  top: 100%;
+  left: initial;
+}

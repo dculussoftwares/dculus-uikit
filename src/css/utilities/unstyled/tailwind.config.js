@@ -10,8 +10,8 @@ module.exports = {
   },
   plugins: [
     plugin(function ({ addBase, addUtilities }) {
-      addBase(require("../../../dist/base"));
-      addUtilities(require("../../../dist/utilities"), {
+      addBase(require("../../../../dist/base"));
+      addUtilities(require("../../../../dist/utilities"), {
         variants: ["responsive"],
       });
     }),

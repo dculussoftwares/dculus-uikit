@@ -1,0 +1,6 @@
+.alert {
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
+    padding: 1rem;
+    border-radius: var(--rounded-box, 1rem)
+}

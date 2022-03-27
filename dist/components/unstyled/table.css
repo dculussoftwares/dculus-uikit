@@ -1,0 +1,10 @@
+.table {
+    position: relative
+}
+  .table th:first-child {
+    position: sticky;
+    left: 0px;
+    z-index: 11;
+    /* because safari */
+    position: -webkit-sticky
+}

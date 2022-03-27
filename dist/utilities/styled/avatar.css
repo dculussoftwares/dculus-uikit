@@ -1,0 +1,28 @@
+.avatar.online:before {
+      content: "";
+      position: absolute;
+      z-index: 10;
+      display: block;
+      border-radius: 9999px;
+      --tw-bg-opacity: 1;
+      background-color: hsl(var(--su) / var(--tw-bg-opacity));
+      width: 15%;
+      height: 15%;
+      top: 7%;
+      right: 7%;
+      box-shadow: 0 0 0 2px hsl(var(--b1));
+    }
+  .avatar.offline:before {
+      content: "";
+      position: absolute;
+      z-index: 10;
+      display: block;
+      border-radius: 9999px;
+      --tw-bg-opacity: 1;
+      background-color: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity));
+      width: 15%;
+      height: 15%;
+      top: 7%;
+      right: 7%;
+      box-shadow: 0 0 0 2px hsl(var(--b1));
+    }

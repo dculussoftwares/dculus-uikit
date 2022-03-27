@@ -1,0 +1,76 @@
+.range-xs {
+      height: 1rem
+}
+    .range-xs::-webkit-slider-runnable-track {
+      height: 0.25rem
+}
+    .range-xs::-moz-range-track {
+      height: 0.25rem
+}
+    .range-xs::-webkit-slider-thumb {
+      height: 1rem;
+      width: 1rem;
+      --filler-offset: 0.4rem
+}
+    .range-xs::-moz-range-thumb {
+      height: 1rem;
+      width: 1rem;
+      --filler-offset: 0.4rem
+}
+  .range-sm {
+      height: 1.25rem
+}
+  .range-sm::-webkit-slider-runnable-track {
+      height: 0.25rem
+}
+  .range-sm::-moz-range-track {
+      height: 0.25rem
+}
+  .range-sm::-webkit-slider-thumb {
+      height: 1.25rem;
+      width: 1.25rem;
+      --filler-offset: 0.5rem
+}
+  .range-sm::-moz-range-thumb {
+      height: 1.25rem;
+      width: 1.25rem;
+      --filler-offset: 0.5rem
+}
+  .range-md {
+      height: 1.5rem
+}
+  .range-md::-webkit-slider-runnable-track {
+      height: 0.5rem
+}
+  .range-md::-moz-range-track {
+      height: 0.5rem
+}
+  .range-md::-webkit-slider-thumb {
+      height: 1.5rem;
+      width: 1.5rem;
+      --filler-offset: 0.6rem
+}
+  .range-md::-moz-range-thumb {
+      height: 1.5rem;
+      width: 1.5rem;
+      --filler-offset: 0.6rem
+}
+  .range-lg {
+      height: 2rem
+}
+  .range-lg::-webkit-slider-runnable-track {
+      height: 1rem
+}
+  .range-lg::-moz-range-track {
+      height: 1rem
+}
+  .range-lg::-webkit-slider-thumb {
+      height: 2rem;
+      width: 2rem;
+      --filler-offset: 1rem
+}
+  .range-lg::-moz-range-thumb {
+      height: 2rem;
+      width: 2rem;
+      --filler-offset: 1rem
+}

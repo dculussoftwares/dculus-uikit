@@ -1,0 +1,20 @@
+.mockup-code {
+        position: relative;
+        overflow: hidden;
+        overflow-x: auto;
+}
+    .mockup-code pre[data-prefix]:before {
+        content: attr(data-prefix);
+        display: inline-block;
+        text-align: right;
+      }
+  .mockup-window {
+        position: relative;
+        overflow: hidden;
+        overflow-x: auto;
+}
+  .mockup-window pre[data-prefix]:before {
+        content: attr(data-prefix);
+        display: inline-block;
+        text-align: right;
+      }

@@ -1,0 +1,20 @@
+.mask {
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+.mask-half-1 {
+  -webkit-mask-size: 200%;
+          mask-size: 200%;
+  -webkit-mask-position: left;
+          mask-position: left;
+}
+.mask-half-2 {
+  -webkit-mask-size: 200%;
+          mask-size: 200%;
+  -webkit-mask-position: right;
+          mask-position: right;
+}

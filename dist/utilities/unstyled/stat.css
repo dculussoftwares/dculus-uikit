@@ -1,0 +1,6 @@
+.stats-horizontal {
+    grid-auto-flow: column
+}
+.stats-vertical {
+    grid-auto-flow: row
+}

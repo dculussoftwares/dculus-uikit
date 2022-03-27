@@ -1,0 +1,43 @@
+.dropdown {
+    position: relative;
+    display: inline-block
+}
+.dropdown > *:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px
+}
+.dropdown .dropdown-content {
+    visibility: hidden;
+    position: absolute;
+    z-index: 50;
+    opacity: 0
+}
+.dropdown-end .dropdown-content {
+    right: 0px
+}
+.dropdown-left .dropdown-content {
+    top: 0px;
+    right: 100%;
+    bottom: auto
+}
+.dropdown-right .dropdown-content {
+    left: 100%;
+    top: 0px;
+    bottom: auto
+}
+.dropdown-top .dropdown-content {
+    bottom: 100%;
+    top: auto
+}
+.dropdown-end.dropdown-right .dropdown-content {
+    bottom: 0px;
+    top: auto
+}
+.dropdown-end.dropdown-left .dropdown-content {
+    bottom: 0px;
+    top: auto
+}
+.dropdown.dropdown-open .dropdown-content, .dropdown.dropdown-hover:hover .dropdown-content, .dropdown:not(.dropdown-hover):focus .dropdown-content, .dropdown:not(.dropdown-hover):focus-within .dropdown-content {
+    visibility: visible;
+    opacity: 1
+}

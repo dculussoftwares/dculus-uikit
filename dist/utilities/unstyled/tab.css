@@ -1,0 +1,26 @@
+.tab-md {
+    height: 2rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    line-height: 2;
+    --tab-padding: 1rem
+}
+  .tab-lg {
+    height: 3rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    line-height: 2;
+    --tab-padding: 1.25rem
+}
+  .tab-sm {
+    height: 1.5rem;
+    font-size: 0.875rem;
+    line-height: .75rem;
+    --tab-padding: 0.75rem
+}
+  .tab-xs {
+    height: 1.25rem;
+    font-size: 0.75rem;
+    line-height: .75rem;
+    --tab-padding: 0.5rem
+}

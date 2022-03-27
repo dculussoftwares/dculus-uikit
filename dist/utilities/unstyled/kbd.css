@@ -1,0 +1,32 @@
+.kbd-xs {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    min-height: 1.2em;
+    min-width: 1.2em
+}
+  .kbd-sm {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    min-height: 1.6em;
+    min-width: 1.6em
+}
+  .kbd-md {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    min-height: 2.2em;
+    min-width: 2.2em
+}
+  .kbd-lg {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    min-height: 2.5em;
+    min-width: 2.5em
+}

@@ -1,0 +1,52 @@
+.stats {
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--b1) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--bc) / var(--tw-text-opacity));
+    border-radius: var(--rounded-box, 1rem)
+}
+:where(.stats) > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-x-reverse: 0;
+    border-right-width: calc(1px * var(--tw-divide-x-reverse));
+    border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
+    --tw-divide-y-reverse: 0;
+    border-top-width: calc(0px * calc(1 - var(--tw-divide-y-reverse)));
+    border-bottom-width: calc(0px * var(--tw-divide-y-reverse))
+}
+:where(.stats) {
+    overflow-x: auto
+}
+.stat {
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+    border-color: hsl(var(--bc) / var(--tw-border-opacity));
+    --tw-border-opacity: 0.1;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+.stat-title {
+    opacity: 0.6
+}
+.stat-value {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 800
+}
+.stat-desc {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    opacity: 0.6
+}
+.stat-actions {
+    margin-top: 1rem
+}
+/* .stat + .stat {
+  @apply border-l border-base-content border-opacity-10;
+}
+.stats.grid-flow-row {
+  .stat + .stat {
+    @apply border-l-0 border-t;
+  }
+} */

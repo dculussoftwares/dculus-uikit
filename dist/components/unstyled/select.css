@@ -1,0 +1,43 @@
+.select {
+
+    display: inline-flex;
+
+    flex-shrink: 0;
+
+    cursor: pointer;
+
+    -webkit-user-select: none;
+
+       -moz-user-select: none;
+
+        -ms-user-select: none;
+
+            user-select: none;
+
+    -webkit-appearance: none;
+
+       -moz-appearance: none;
+
+            appearance: none;
+
+    height: 3rem;
+
+    padding-left: 1rem;
+
+    padding-right: 2.5rem;
+
+    font-size: 0.875rem;
+
+    line-height: 1.25rem;
+
+    line-height: 2;
+
+    min-height: 3rem
+}
+
+  /* disabled */
+
+  .select-disabled, .select[disabled] {
+
+    pointer-events: none
+}

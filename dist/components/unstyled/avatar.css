@@ -1,0 +1,20 @@
+.avatar {
+    position: relative;
+    display: inline-flex
+}
+  .avatar > div {
+    display: block;
+    aspect-ratio: 1 / 1;
+    overflow: hidden
+}
+  .avatar img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover
+}
+  .avatar.placeholder > div {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}

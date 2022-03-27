@@ -1,0 +1,48 @@
+.card {
+    border-radius: var(--rounded-box, 1rem);
+}
+  .card:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+  .card.bordered {
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--b2, var(--b1)) / var(--tw-border-opacity));
+}
+  .card-bordered {
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--b2, var(--b1)) / var(--tw-border-opacity));
+}
+  .card.compact .card-body {
+    padding: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+  .card-body {
+    padding: var(--padding-card, 2rem);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .card-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+  .card.image-full:before {
+    z-index: 10;
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--n) / var(--tw-bg-opacity));
+    opacity: 0.75;
+    border-radius: var(--rounded-box, 1rem);
+}
+  .card.image-full > .card-body {
+    z-index: 20;
+    --tw-text-opacity: 1;
+    color: hsl(var(--nc) / var(--tw-text-opacity));
+}

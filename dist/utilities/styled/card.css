@@ -1,0 +1,16 @@
+.card-compact .card-body {
+    padding: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+  .card-compact .card-title {
+    margin-bottom: 0.25rem;
+}
+.card-normal .card-body {
+    padding: var(--padding-card, 2rem);
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+.card-normal .card-title {
+    margin-bottom: 0.75rem;
+}

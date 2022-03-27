@@ -1,0 +1,338 @@
+.alert-sm {
+    padding: 0.5rem
+}
+  .alert-info {
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--in) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--inc, var(--nc)) / var(--tw-text-opacity))
+}
+  .alert-success {
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--su) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--suc, var(--nc)) / var(--tw-text-opacity))
+}
+  .alert-warning {
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--wa) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--wac, var(--nc)) / var(--tw-text-opacity))
+}
+  .alert-error {
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--er) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--erc, var(--nc)) / var(--tw-text-opacity))
+}
+.artboard-demo {
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--b1) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--bc) / var(--tw-text-opacity));
+    border-radius: var(--rounded-box, 1rem);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
+}
+.avatar.online:before {
+      content: "";
+      position: absolute;
+      z-index: 10;
+      display: block;
+      border-radius: 9999px;
+      --tw-bg-opacity: 1;
+      background-color: hsl(var(--su) / var(--tw-bg-opacity));
+      width: 15%;
+      height: 15%;
+      top: 7%;
+      right: 7%;
+      box-shadow: 0 0 0 2px hsl(var(--b1));
+    }
+  .avatar.offline:before {
+      content: "";
+      position: absolute;
+      z-index: 10;
+      display: block;
+      border-radius: 9999px;
+      --tw-bg-opacity: 1;
+      background-color: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity));
+      width: 15%;
+      height: 15%;
+      top: 7%;
+      right: 7%;
+      box-shadow: 0 0 0 2px hsl(var(--b1));
+    }
+.badge-primary {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--p) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--p) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--pc) / var(--tw-text-opacity))
+}
+  .badge-secondary {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--s) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--s) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--sc) / var(--tw-text-opacity))
+}
+  .badge-accent {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--a) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--a) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--ac) / var(--tw-text-opacity))
+}
+  .badge-ghost {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--b2, var(--b1)) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--bc) / var(--tw-text-opacity))
+}
+  .badge-outline {
+    border-color: currentColor;
+    --tw-border-opacity: 0.5;
+    background-color: transparent;
+    --tw-text-opacity: 1;
+    color: hsl(var(--bc) / var(--tw-text-opacity))
+}
+  .badge-outline.badge-primary {
+    --tw-text-opacity: 1;
+    color: hsl(var(--p) / var(--tw-text-opacity))
+}
+  .badge-outline.badge-secondary {
+    --tw-text-opacity: 1;
+    color: hsl(var(--s) / var(--tw-text-opacity))
+}
+  .badge-outline.badge-accent {
+    --tw-text-opacity: 1;
+    color: hsl(var(--a) / var(--tw-text-opacity))
+}
+  .badge-outline.badge-info {
+    --tw-text-opacity: 1;
+    color: hsl(var(--in) / var(--tw-text-opacity))
+}
+  .badge-outline.badge-success {
+    --tw-text-opacity: 1;
+    color: hsl(var(--su) / var(--tw-text-opacity))
+}
+  .badge-outline.badge-warning {
+    --tw-text-opacity: 1;
+    color: hsl(var(--wa) / var(--tw-text-opacity))
+}
+  .badge-outline.badge-error {
+    --tw-text-opacity: 1;
+    color: hsl(var(--er) / var(--tw-text-opacity))
+}
+  .badge-info {
+    border-color: transparent;
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--in) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--inc, var(--nc)) / var(--tw-text-opacity))
+}
+  .badge-success {
+    border-color: transparent;
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--su) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--suc, var(--nc)) / var(--tw-text-opacity))
+}
+  .badge-warning {
+    border-color: transparent;
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--wa) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--wac, var(--nc)) / var(--tw-text-opacity))
+}
+  .badge-error {
+    border-color: transparent;
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--er) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--erc, var(--nc)) / var(--tw-text-opacity))
+}
+.card-compact .card-body {
+    padding: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+  .card-compact .card-title {
+    margin-bottom: 0.25rem;
+}
+.card-normal .card-body {
+    padding: var(--padding-card, 2rem);
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+.card-normal .card-title {
+    margin-bottom: 0.75rem;
+}
+.divider-horizontal {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: auto;
+    width: 1rem
+}
+.divider-vertical {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 1rem;
+    width: auto
+}
+.menu-vertical :where(li.bordered > *) {
+  border-left-width: 4px;
+  border-bottom-width: 0px;
+}
+.menu-horizontal :where(li.bordered > *) {
+  border-left-width: 0px;
+  border-bottom-width: 4px;
+}
+.menu-normal :where(li > *) {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.menu-compact :where(li > *) {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.menu-vertical > :where(li:first-child) {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: unset;
+  border-bottom-left-radius: unset;
+}
+.menu-vertical > :where(li:first-child) > :where(*:not(ul)) {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: unset;
+  border-bottom-left-radius: unset;
+}
+.menu-vertical > :where(li:last-child) {
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+.menu-vertical > :where(li:last-child) > :where(*:not(ul)) {
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+.menu-horizontal > :where(li:first-child) {
+  border-top-left-radius: inherit;
+  border-top-right-radius: unset;
+  border-bottom-right-radius: unset;
+  border-bottom-left-radius: inherit;
+}
+.menu-horizontal > :where(li:first-child) > :where(*:not(ul)) {
+  border-top-left-radius: inherit;
+  border-top-right-radius: unset;
+  border-bottom-right-radius: unset;
+  border-bottom-left-radius: inherit;
+}
+.menu-horizontal > :where(li:last-child) {
+  border-top-left-radius: unset;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: unset;
+}
+.menu-horizontal > :where(li:last-child) > :where(*:not(ul)) {
+  border-top-left-radius: unset;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: unset;
+}
+.modal-bottom :where(.modal-box) {
+    width: 100%;
+    max-width: none;
+    --tw-translate-y: 2.5rem;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px
+}
+.modal-middle :where(.modal-box) {
+    width: 91.666667%;
+    max-width: 32rem;
+    --tw-translate-y: 0px;
+    --tw-scale-x: .9;
+    --tw-scale-y: .9;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-bottom-left-radius: var(--rounded-box, 1rem);
+    border-bottom-right-radius: var(--rounded-box, 1rem)
+}.stats-horizontal > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-x-reverse: 0;
+    border-right-width: calc(1px * var(--tw-divide-x-reverse));
+    border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
+    --tw-divide-y-reverse: 0;
+    border-top-width: calc(0px * calc(1 - var(--tw-divide-y-reverse)));
+    border-bottom-width: calc(0px * var(--tw-divide-y-reverse))
+}
+.stats-horizontal {
+    overflow-x: auto
+}
+.stats-vertical > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-y-reverse: 0;
+    border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+    border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+    --tw-divide-x-reverse: 0;
+    border-right-width: calc(0px * var(--tw-divide-x-reverse));
+    border-left-width: calc(0px * calc(1 - var(--tw-divide-x-reverse)))
+}
+.stats-vertical {
+    overflow-y: auto
+}
+.steps-horizontal .step {
+      grid-template-rows: 40px 1fr;
+      grid-template-columns: auto;
+      min-width: 4rem;
+    }
+      .steps-horizontal .step:before {
+      height: 0.5rem;
+      width: 100%;
+      --tw-translate-y: 0px;
+      --tw-translate-x: 0px;
+      transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+        content: "";
+        margin-left: -100%;
+}
+  .steps-vertical .step {
+      gap: 0.5rem;
+      grid-template-columns: 40px 1fr;
+      grid-template-rows: auto;
+      min-height: 4rem;
+      justify-items: start;
+    }
+  .steps-vertical .step:before {
+      height: 100%;
+      width: 0.5rem;
+      --tw-translate-y: -50%;
+      --tw-translate-x: -50%;
+      transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+        margin-left: 50%;
+}
+.table-normal :where(th, td) {
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem
+}
+.table-compact :where(th, td) {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem
+}
