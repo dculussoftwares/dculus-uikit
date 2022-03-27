@@ -1,5 +1,7 @@
 import React from "react";
 import { Button } from "../index";
+// import second from '../'
+import "./Preview.css"
 
 const Preview = () => {
   return (

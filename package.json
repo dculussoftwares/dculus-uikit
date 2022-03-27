@@ -9,7 +9,7 @@
   "types": "build/index.d.ts",
   "description": "A skeleton to create your own React component library using Rollup, TypeScript, Sass and Storybook",
   "scripts": {
-    "build": "rm -rf dist && rm -rf build && npm run buildui && rollup -c &&  sh ./scripts/build.sh",
+    "build": "rm -rf dist && rm -rf build && npm run buildui && rollup -c &&  sh ./scripts/build.sh && cp -r ./dist/  ./build/",
     "build-kit-only": "rm -rf dist && rollup -c &&  sh ./scripts/build.sh",
     "build-local": "rm -rf dist && rollup -c",
     "rollup": "del dist && rollup -c",
