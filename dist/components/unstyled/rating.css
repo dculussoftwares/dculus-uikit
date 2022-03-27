@@ -1,7 +1,0 @@
-.rating {
-    position: relative;
-    display: inline-flex
-}
-  .rating :where(input) {
-    cursor: pointer
-}
